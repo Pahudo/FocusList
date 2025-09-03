@@ -8,14 +8,14 @@ python -m venv venv
 source venv/bin/activate # Windows: venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 uvicorn app.main:app --reload
-
+```
 Docs: http://127.0.0.1:8000/docs
 
-📦 Stack
+## 📦 Stack
 
 FastAPI • Uvicorn • SQLAlchemy • SQLite
 
-🔗 Endpoints
+## 🔗 Endpoints
 
 GET /tasks — list tasks
 
@@ -27,16 +27,17 @@ PUT /tasks/{id} — update tasks (title, description, done)
 
 DELETE /tasks/{id} — delete tasks
 
-🗂️ Structure
+## 🗂️ Structure
 
-app/
+```app/
   main.py
   models.py
   database.py
   routes.py
 requirements.txt
+```
 
-🛣️ Nexts Steps
+## 🛣️ Nexts Steps
 
 Authentication (JWT)
 
