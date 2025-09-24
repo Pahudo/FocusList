@@ -43,6 +43,6 @@ Authentication (JWT)
 
 Fields created_at/updated_at
 
-pagination and filters
+Pagination and filters
 
 Deploy (Render/Railway)
